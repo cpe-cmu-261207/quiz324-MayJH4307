@@ -78,7 +78,7 @@ function App() {
           {/* display tables for all persons */}
           <p className="is-4 title has-text-centered">Pet List</p>
           {/* sample table */}
-          <ItemTable name={"Coco"} gender={"Male"} age={"5"} />
+
           {myCourses.map((item) => {
             return (
               <ItemTable name={item.name} gender={item.gender} age={item.age} />
